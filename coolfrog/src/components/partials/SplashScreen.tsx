@@ -5,17 +5,17 @@ import YoutubeIcon from "../icons/YoutubeIcon";
 const socialLinks = [
   {
     title: "Telegram",
-    url: "#",
+    url: "https://t.me/ArtinToken",
     icon: TelegramIcon,
   },
   {
     title: "Youtube",
-    url: "#",
+    url: "https://www.youtube.com/@artintoken",
     icon: YoutubeIcon,
   },
   {
     title: "Twitter",
-    url: "#",
+    url: "https://x.com/artintoken",
     icon: TwitterIcon,
   },
 ];
@@ -36,7 +36,7 @@ export default function SplashScreen() {
       <div className="flex flex-col items-center w-full">
         <div className="flex flex-col items-center w-full pb-6 bg-[url('/images/blur.png')] bg-cover bg-center">
           <h1 className="text-6xl font-medium text-center uppercase text-shadow">
-            THE COOL FROG
+            Artin Token
           </h1>
           <img
             src="/images/loader.png"
