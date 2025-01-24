@@ -14,10 +14,10 @@ class MissionSeeder extends Seeder
     public function run(): void
     {
         $missions = [
-            ['name' => 'Lily Pad Leap', 'mission_type_id' => 1, 'image' => '/images/missions/1.png'],
-            ['name' => 'Fly Catch Frenzy', 'mission_type_id' => 1, 'image' => '/images/missions/2.png'],
-            ['name' => 'Swamp Sprint', 'mission_type_id' => 1, 'image' => '/images/missions/3.png'],
-            ['name' => 'Croak Quest', 'mission_type_id' => 1, 'image' => '/images/missions/4.png'],
+            ['name' => Mining', 'mission_type_id' => 1, 'image' => '/images/missions/1.png'],
+            ['name' => 'Wallet Security', 'mission_type_id' => 1, 'image' => '/images/missions/2.png'],
+            ['name' => 'Trading', 'mission_type_id' => 1, 'image' => '/images/missions/3.png'],
+            ['name' => 'Community Building', 'mission_type_id' => 1, 'image' => '/images/missions/4.png'],
         ];
 
         foreach ($missions as $key => $mission) {
