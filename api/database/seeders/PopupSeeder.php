@@ -17,7 +17,7 @@ class PopupSeeder extends Seeder
             "text" => "Follow us on X and get 10,000 coins. It takes seconds.",
             "image" => "images/missions/1.png",
             "button_text" => "Follow",
-            "button_link" => "https://x.com"
+            "button_link" => "https://x/ArtinToken.com"
         ]);
     }
 }
